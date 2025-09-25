@@ -1,0 +1,18 @@
+version: '3.6'
+services:
+  portfolio-website:
+    image: dock-reg.hartwolf.com/portfolio-website
+    container_name: portfolio-website
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio-website.rule=Host(`portfolio.hartwolf.com`)"
+      - "traefik.http.routers.portfolio-website.entrypoints=websecure"
+      - "traefik.http.routers.portfolio-website.tls.certresolver=myresolver"
+      - "traefik.http.services.portfolio-website.loadbalancer.server.port=80"
+    networks:
+      - traefik
+
+networks:
+    traefik:
+        external: true
+        name: traefik_default
