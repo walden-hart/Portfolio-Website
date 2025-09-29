@@ -23,7 +23,7 @@ docker build -t $IMAGE_NAME .
 ```
 ## Usage
 ### Website (Central)
-* Navigate to the homepage (walden.hartwolf.com)
+* Navigate to the homepage (portfolio.hartwolf.com)
 
 ### Website (WAR File)
 * Use the installation instructions for the build artifacts
