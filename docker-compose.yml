@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   portfolio-website:
-    image: dock-reg.hartwolf.com/portfolio-website
+    image: dock-reg.hartwolf.com/portfolio-website:latest
     container_name: portfolio-website
     labels:
       - "traefik.enable=true"
