@@ -6,7 +6,7 @@ import { projects } from '@/data/projects';
   <v-container class="py-12">
     <v-row>
       <v-col cols="12">
-        <h2 class="text-h4 font-weight-bold mb-8">Projects</h2>
+        <h2 class="text-h3 font-weight-bold mb-6">Projects</h2>
       </v-col>
 
       <v-col
