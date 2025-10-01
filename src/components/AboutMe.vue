@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <v-container class="py-12">
+  <v-container class="py-12">
     <v-row align="center" justify="center">
       <v-col cols="12" md="8">
         <h1 class="text-h3 font-weight-bold mb-6">About Me</h1>
@@ -30,10 +30,7 @@
           <strong>security-focused engineer</strong>, applying my skills to
           deliver high-quality, impactful software solutions.
         </p>
-
-        <v-btn color="primary" class="mt-6" to="/projects">
-          View My Projects
-        </v-btn>
+        
       </v-col>
     </v-row>
   </v-container>
