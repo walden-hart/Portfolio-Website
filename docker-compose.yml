@@ -3,6 +3,7 @@ services:
   portfolio-website:
     image: dock-reg.hartwolf.com/portfolio-website:latest
     container_name: portfolio-website
+    restart: unless-stopped
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.portfolio-website.rule=Host(`portfolio.hartwolf.com`)"
