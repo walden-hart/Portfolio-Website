@@ -17,7 +17,7 @@ onMounted(() => {
   <v-container v-if="project" class="py-12">
     <h1 class="text-h3 font-weight-bold mb-6">{{ project.title }}</h1>
     <p class="text-body-1 mb-4">{{ project.details }}</p>
-    <v-btn v-if="project.link" color="primary" :href="project.link" target="_blank" class="me-4">View Project</v-btn>
+    <v-btn v-for="link in project.links" color="primary" :href="link.url" target="_blank" class="me-4">{{ link.title }}</v-btn>
     <v-btn color="primary" :to="`/`">Back to Home</v-btn>
   </v-container>
 
