@@ -26,7 +26,7 @@
               BuckeyeCTF.
             </p>
 
-            <p class="text-body-1 mb-4">
+            <p class="text-body-1">
               I'm eager to continue growing as a
               <strong>full-stack developer</strong> and
               <strong>security-focused engineer</strong>, applying my skills to

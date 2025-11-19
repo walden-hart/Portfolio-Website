@@ -6,12 +6,12 @@ import { projects } from '@/data/projects';
   <v-container class="py-12">
     <v-row>
       <v-col cols="12">
-        <h2 class="text-h3 font-weight-bold mb-6">Projects</h2>
+        <h1 class="text-h3 font-weight-bold mb-6">Projects</h1>
       </v-col>
 
       <v-col
         v-for="project in projects"
-        :key="project.title"
+        :key="project.id"
         cols="12"
         md="4"
         class="mb-6"
