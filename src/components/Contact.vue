@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const email: String = "mailto:walden.hart.2003@gmail.com"
-const linkedin: String = "https://www.linkedin.com/in/walden-hart/"
-const github: String = "https://github.com/walden-hart"
+const email: string = "mailto:walden.hart.2003@gmail.com"
+const linkedin: string = "https://www.linkedin.com/in/walden-hart/"
+const github: string = "https://github.com/walden-hart"
 </script>
 
 <template>
