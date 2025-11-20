@@ -20,7 +20,7 @@ import { projects } from '@/data/projects';
           <v-card-title class="text-h6">{{ project.title }}</v-card-title>
           <v-card-text>{{ project.description }}</v-card-text>
           <v-card-actions>
-            <v-btn text :to="`/projects/${project.id}`">View Project</v-btn>
+            <v-btn variant="tonal" color="primary" :to="`/projects/${project.id}`">View Project</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>

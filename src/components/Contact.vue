@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const email: string = "mailto:walden.hart.2003@gmail.com"
+const email: string = "walden.hart.2003@gmail.com"
 const linkedin: string = "https://www.linkedin.com/in/walden-hart/"
 const github: string = "https://github.com/walden-hart"
 </script>
@@ -19,7 +19,7 @@ const github: string = "https://github.com/walden-hart"
                             You can reach me at:
                         </p>
                         <v-list lines="one" class="text-body-1">
-                            <v-list-item :href="email" target="_blank" rel="noopener">
+                            <v-list-item :href="`mailto:${email}`" target="_blank" rel="noopener">
                                 <v-list-item-title>Email</v-list-item-title>
                                 <v-list-item-subtitle>{{ email }}</v-list-item-subtitle>
                             </v-list-item>
