@@ -19,7 +19,7 @@ npm run build
 ### Docker
 * Build the image with:
 ```console
-docker build -t $IMAGE_NAME .
+docker build -f docker/Dockerfile -t $IMAGE_NAME .
 ```
 ## Usage
 ### Website (Central)
